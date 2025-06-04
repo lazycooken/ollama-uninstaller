@@ -11,6 +11,7 @@ fi
 
 echo ">>> Removing Ollama binary..."
 sudo rm -f /usr/local/bin/ollama
+sudo rm -rf /usr/local/lib/ollama
 
 echo ">>> Removing Ollama configuration and cache..."
 rm -rf "$HOME/.ollama"
